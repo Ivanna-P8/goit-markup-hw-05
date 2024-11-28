@@ -657,7 +657,7 @@ a {
 }
 
 .modal-form-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .text-form {
@@ -756,7 +756,7 @@ a {
   color: #8e8f99;
 }
 
-input[type='checkbox']:checked + .checkboxform .checkboxform-span {
+input[type='checkbox']:checked + .checkboxform-label .checkboxform-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
