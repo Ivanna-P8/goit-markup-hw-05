@@ -548,7 +548,7 @@ a {
   height: 40px;
   padding: 8px 24px;
 
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -601,7 +601,6 @@ a {
   top: 50%;
   left: 50%;
 
-  padding: 72px 24px 24px 24px;
   width: 408px;
   min-height: 584px;
   border-radius: 4px;
@@ -614,7 +613,7 @@ a {
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
 }
 
 .backdrop:not(.is-open) .modal {
@@ -649,12 +648,16 @@ a {
   fill: #fff;
 }
 
+.iconclose {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .iconform {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .text-form {
