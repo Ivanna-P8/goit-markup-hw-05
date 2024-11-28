@@ -660,6 +660,10 @@ a {
   margin-bottom: 8px;
 }
 
+.form-textarea {
+  margin-bottom: 16px;
+}
+
 .text-form {
   margin-top: 48px;
   font-weight: 500;
