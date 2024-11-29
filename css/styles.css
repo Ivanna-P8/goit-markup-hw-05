@@ -436,8 +436,6 @@ a {
   row-gap: 72px;
   padding-left: 20px;
   flex-direction: row;
-  align-items: center;
-  justify-content: baseline;
 }
 
 .footer-container-div {
@@ -472,10 +470,12 @@ a {
   color: #fff;
   margin-bottom: 16px;
 }
+
 .footer-socials {
   display: flex;
   gap: 16px;
   justify-content: center;
+  margin-right: 70px;
 }
 
 .footer-socials-list {
@@ -533,6 +533,15 @@ a {
   letter-spacing: 0.04em;
 
   padding-left: 16px;
+
+  outline: transparent;
+
+  background-color: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.email-form-input:focus {
+  border-color: #31d0aa;
 }
 
 .email-form-input::placeholder {
@@ -565,6 +574,11 @@ a {
   background-color: #4d5ae5;
   text-align: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-button:focus,
+.footer-button:hover {
+  background-color: #31d0aa;
 }
 
 .subscribe-icon {
@@ -665,7 +679,6 @@ a {
 }
 
 .text-form {
-  margin-top: 48px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -792,9 +805,6 @@ input[type='checkbox']:checked + .checkboxform-label .checkboxform-span {
   fill: transparent;
 }
 
-.checkboxform-span-icon {
-  opacity: 0;
-}
 .checkboxform-link {
   line-height: 1.33333;
   text-decoration: underline;
@@ -828,6 +838,11 @@ input[type='checkbox']:checked + .checkboxform-label .checkboxform-span {
   cursor: pointer;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-modal:focus,
+.button-modal:hover {
+  background-color: #404bbf;
 }
 
 .subscribe-icon {
